@@ -1,11 +1,11 @@
-import Header from "../components/dashboard/header";
-import Navbar from "../components/navbar/navbar";
+import Header from "../components/header/header";
+import Stats from "../components/stats/stats";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Header />
+      <Stats />
     </div>
   );
 }

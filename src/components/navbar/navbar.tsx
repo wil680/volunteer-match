@@ -21,10 +21,12 @@ function Menu() {
       </li>
 
       <li>
-        <Link to="/dashboard">Donate</Link>
+        <Link to="/donate">Donate</Link>
       </li>
       <li>
-        <Link to="/login">Login</Link>
+        <Link to="/login" id="signin">
+          Sign In
+        </Link>
       </li>
     </ul>
   );
@@ -32,8 +34,8 @@ function Menu() {
 
 function Logo() {
   return (
-    <a>
-      <h1 className="logo">Volunteer Match</h1>
-    </a>
+    <Link to="/" className="logo">
+      Volunteer Match
+    </Link>
   );
 }
