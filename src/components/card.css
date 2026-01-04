@@ -1,0 +1,38 @@
+.card {
+  justify-content: space-between;
+
+  border: 1px solid;
+  border-radius: 12px;
+  border-color: rgb(182, 181, 181);
+
+  padding: 1rem;
+  margin: 0;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.role {
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+
+.info {
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 200;
+}
+
+.apply {
+  margin-top: auto;
+}

@@ -1,3 +1,5 @@
+import "./page.css";
+
 import LandingHeader from "../components/landingHeader/landingHeader";
 
 export default function Landing() {

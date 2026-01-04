@@ -1,3 +1,5 @@
+import "./page.css";
+
 import LoginBox from "../components/loginBox";
 
 export default function Login() {

@@ -1,3 +1,4 @@
+import "./page.css"
 export default function Donate() {
   return (
     <div className="donate">

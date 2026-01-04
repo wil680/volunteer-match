@@ -1,3 +1,5 @@
+import "./page.css";
+
 import Header from "../components/header/header";
 import Stats from "../components/stats/stats";
 
