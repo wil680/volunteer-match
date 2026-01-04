@@ -1,5 +1,6 @@
 import "./card.css";
-import type { OpportunitiesType } from "../../api";
+import type { OpportunitiesType } from "../../../api";
+
 export default function Card({ data }: { data: OpportunitiesType }) {
   return (
     <div className="card">
@@ -12,7 +13,9 @@ export default function Card({ data }: { data: OpportunitiesType }) {
         </div>
         <p className="description">{data.description}</p>
       </div>
-      <button className="apply">Apply here</button>
+      <button onClick={() => window.open(data.url, "_blank")} className="apply">
+        Apply
+      </button>
     </div>
   );
 }

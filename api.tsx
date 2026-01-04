@@ -10,8 +10,8 @@ export type OpportunitiesType = {
   duration: string;
 };
 
-export async function Opportunity() {
-  const response = await fetch(apiUrl);
+export async function Opportunity(page: number) {
+  const response = await fetch(`${apiUrl}?page=${page}`);
   const data = await response.json();
   console.log(data);
   return data;
